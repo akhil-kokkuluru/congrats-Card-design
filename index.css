@@ -1,1 +1,45 @@
-/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.totalBg {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  height: 100vh;
+}
+
+.innerBg {
+  background-color: #cffafe;
+  padding: 30px;
+}
+
+.headingEl {
+  font-size: 35px;
+}
+
+.images {
+  width: 50px;
+}
+
+.bhimavaram {
+  font-size: 12px;
+}
+
+.kiranname {
+  font-size: 19px;
+}
+
+@media screen and (max-width= 576px) {
+  .images {
+    width: 70px;
+  }
+}
